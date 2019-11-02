@@ -31,6 +31,7 @@ class App extends Component {
           <img src={logo} className='App-logo' alt='logo' />
           <p>Server is saying:</p>
           <p>{this.state.data}</p>
+          <p>Test</p>
         </header>
       </div>
     );
