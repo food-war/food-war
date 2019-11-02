@@ -10,7 +10,7 @@ app.use(morgan('combined'));
 app.use(cors());
 
 app.get('/sayHello', function(req, res) {
-  res.send('Hello from the foodwar back-end.');
+  res.send('Hello from the foodwar back-end!!!');
 });
 
 app.listen(APP_PORT);
